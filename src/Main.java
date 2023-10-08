@@ -18,10 +18,15 @@ public class Main {
         int [] intA1 = new int[] {3,2,1};
         double[] numbers1 = {9.986, 7.654,1.57};
         String[] stringArray1 = new String[]{"orange", "banana", "apple"};
-
+        for (int i = intA1.length - 1; i >= 0; i--) {
+        }
         System.out.println(Arrays.toString(intA1));
+        for (int i = numbers1.length - 1; i >= 0; i--) {
+        }
         System.out.println(Arrays.toString(numbers1));
-
+        for (int i = stringArray.length - 1; i >= 0; i--) {
+        }
+        System.out.println(Arrays.toString(stringArray));
 
         // Задача 4
 
