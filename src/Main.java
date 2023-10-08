@@ -21,7 +21,20 @@ public class Main {
 
         System.out.println(Arrays.toString(intA1));
         System.out.println(Arrays.toString(numbers1));
-        System.out.println(Arrays.toString(stringArray1));
+
+
+        // Задача 4
+
+        int[] num = {1, 2, 3};
+        int length = num.length;
+
+        for (int i = 0; i < length; i++) {
+            if (num[i] % 2 != 0) {
+                num[i]++;
+            }
+        }
+        System.out.println(Arrays.toString(num));
+
 
     }
 }
